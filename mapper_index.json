@@ -1,0 +1,93 @@
+{
+  "projectName": "mangle",
+  "projectRoot": "/home/gabriel/dev/linguagens/mangle",
+  "analysisDate": "2025-09-02",
+  "aiNote": "Este índice foi gerado pela IA do Google para catalogar a estrutura, os principais artefatos e os padrões de dados do projeto 'mangle', com foco especial no ecossistema de dados de saúde do Brasil contido na pasta 'Sistema de dados Brasil'.",
+  "keySystems": [
+    {
+      "name": "TabWin",
+      "type": "Desktop Application",
+      "description": "Software do DATASUS para tabulação e análise de dados de saúde em formato DBF. Utiliza arquivos .DEF e .CNV para definição e conversão de dados."
+    },
+    {
+      "name": "TabNet",
+      "type": "Web Application (CGI)",
+      "description": "Versão web do TabWin para tabulação de dados via Intranet/Internet. Compartilha o mesmo ecossistema de arquivos (.DBF, .DEF, .CNV)."
+    }
+  ],
+  "dataStandards": [
+    {
+      "name": "Padrão de Dados DATASUS (TabWin/TabNet)",
+      "description": "Padrão de dados para os sistemas de informação de saúde do Brasil, baseado em um conjunto de três tipos de arquivos principais que funcionam de forma integrada.",
+      "coreComponents": [
+        {
+          "fileType": ".DBF",
+          "purpose": "Armazena os dados brutos em formato de banco de dados (dBase)."
+        },
+        {
+          "fileType": ".DEF",
+          "purpose": "Arquivo de definição (texto) que atua como um 'mapa', descrevendo a estrutura dos dados no .DBF, as variáveis disponíveis e apontando para os arquivos de conversão (.CNV) correspondentes."
+        },
+        {
+          "fileType": ".CNV",
+          "purpose": "Arquivo de conversão (texto) que funciona como um 'dicionário', traduzindo códigos (ex: códigos de municípios, doenças) em descrições legíveis por humanos."
+        }
+      ]
+    }
+  ],
+  "fileIndex": [
+    {
+      "path": "Sistema de dados Brasil/",
+      "type": "directory",
+      "purpose": "Contém a documentação e os manuais que descrevem o padrão de dados de saúde do Brasil, incluindo os sistemas TabWin e TabNet."
+    },
+    {
+      "path": "Sistema de dados Brasil/ManualTabWin.pdf",
+      "type": "file",
+      "format": "PDF",
+      "purpose": "Manual de usuário do TabWin. Documento crucial que detalha a operação do software e a função dos arquivos .DBF, .DEF e .CNV."
+    },
+    {
+      "path": "Sistema de dados Brasil/DOCS-TABNET 2/ManualTabnet.pdf",
+      "type": "file",
+      "format": "PDF",
+      "purpose": "Manual técnico do TabNet. Descreve a arquitetura (CGI) e a implementação da versão web, confirmando o uso do mesmo ecossistema de arquivos do TabWin."
+    },
+    {
+      "path": "Sistema de dados Brasil/bases_territoriais.pdf",
+      "type": "file",
+      "format": "PDF",
+      "purpose": "Documento fundamental que especifica o layout (esquema) das tabelas de unidades territoriais do Brasil (municípios, estados, regiões de saúde, etc.), servindo como o principal guia para a estrutura dos dados geográficos."
+    },
+    {
+      "path": "Sistema de dados Brasil/Pop_Residente_TCU_2024.pdf",
+      "type": "file",
+      "format": "PDF",
+      "purpose": "Nota técnica sobre as estimativas de população do IBGE, confirmando que os dados populacionais são estruturados para serem usados com as mesmas unidades territoriais definidas em 'bases_territoriais.pdf'."
+    },
+    {
+      "path": "go.mod",
+      "type": "file",
+      "format": "Go Module",
+      "purpose": "Define o módulo Go do projeto, suas dependências e versão."
+    },
+    {
+      "path": "main.go",
+      "type": "file",
+      "format": "Go",
+      "purpose": "Potencial ponto de entrada principal da aplicação Go (assumindo que exista um, o que não foi confirmado)."
+    },
+    {
+      "path": "interpreter/",
+      "type": "directory",
+      "format": "Go",
+      "purpose": "Contém o código fonte do interpretador da linguagem Mangle, o núcleo do projeto."
+    },
+    {
+      "path": "parse/",
+      "type": "directory",
+      "format": "Go",
+      "purpose": "Contém o código do parser da linguagem, incluindo os arquivos gerados pelo ANTLR (em parse/gen/)."
+    }
+  ]
+}
