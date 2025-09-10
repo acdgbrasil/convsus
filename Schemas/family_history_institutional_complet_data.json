@@ -1,0 +1,43 @@
+
+[
+  {
+    "childCustodyHistory": "A criança esteve sob a guarda da avó materna por 2 anos.",
+    "familyInstitutionalShelterHistory": "A família esteve em abrigo institucional por 6 meses em 2020.",
+    "isInUse": true,
+    "observation": [
+      {
+        "observation": "Histórico de instabilidade familiar, com necessidade de intervenção do conselho tutelar.",
+        "whoIsObservingId": "user1"
+      }
+    ],
+    "otherFamilySeparationSituations": {
+      "hasMemberInPrision": true,
+      "hasMemberInadolescentInSocioEducationalInternment": false
+    }
+  },
+  {
+    "childCustodyHistory": "",
+    "familyInstitutionalShelterHistory": "",
+    "isInUse": true,
+    "observation": [
+      {
+        "observation": "Não há histórico de acolhimento institucional ou perda de guarda.",
+        "whoIsObservingId": "user2"
+      }
+    ],
+    "otherFamilySeparationSituations": {
+      "hasMemberInPrision": false,
+      "hasMemberInadolescentInSocioEducationalInternment": false
+    }
+  },
+  {
+    "childCustodyHistory": "",
+    "familyInstitutionalShelterHistory": "",
+    "isInUse": false,
+    "observation": [],
+    "otherFamilySeparationSituations": {
+      "hasMemberInPrision": false,
+      "hasMemberInadolescentInSocioEducationalInternment": true
+    }
+  }
+]

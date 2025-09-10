@@ -1,0 +1,134 @@
+{
+  "info": {
+    "description": "Mapeamento de campos dos schemas Convsus para o padrão de colunas do Prontuário SUAS.",
+    "version": "2.0.0",
+    "author": "Gemini",
+    "source_document": "Manual de Instruções para Utilização do Prontuário SUAS (2014)"
+  },
+  "mappings": {
+    "reference_person": {
+      "origin": "reference_person_data.json",
+      "fields": {
+        "fullName": "NM_PESSOA_REF",
+        "socialName": "NM_SOCIAL",
+        "motherName": "NM_MAE",
+        "nis": "NU_NIS",
+        "cpf": "NU_CPF",
+        "birthDate": "DT_NASC",
+        "biologicalGender": "CD_SEXO",
+        "rg.number": "NU_RG",
+        "rg.issueDate": "DT_EMISSAO_RG",
+        "rg.issuingBody": "SG_EMISSOR_RG",
+        "rg.uf": "SG_UF_RG",
+        "localLocalization": "CD_ZONA_RESID",
+        "cep": "CD_CEP",
+        "adress": "NM_LOGRADOURO",
+        "adressNumber": "NU_LOGRADOURO",
+        "adressComplement": "DS_COMPLEMENTO",
+        "neighborhood": "NM_BAIRRO",
+        "city": "NM_MUNICIPIO",
+        "state": "SG_UF"
+      }
+    },
+    "home_conditions": {
+      "origin": "home_conditions_data.json",
+      "fields": {
+        "typeResidence": "CD_TIPO_RESID",
+        "materialOfExternalWalls": "CD_MAT_PAREDE",
+        "hasAcessEnergy": "CD_ENERGIA_ELET",
+        "waterSupply": "CD_ABAST_AGUA",
+        "sewageDisposal": "CD_ESCOA_SANIT",
+        "garbageCollection": "CD_COLETA_LIXO",
+        "numberOfRooms": "QT_COMODOS",
+        "numberOfBedrooms": "QT_DORMITORIOS",
+        "homeConditionIsInRiskArea": "IN_AREA_RISCO",
+        "difficultyToAccessHome": "IN_DIFICIL_ACESSO"
+      }
+    },
+    "family_composition": {
+      "origin": "family_composition_data.json",
+      "fields": {
+        "socialEspecification": "CD_ESPEC_SOCIAL",
+        "espeficationEthnicity": "DS_ETNIA",
+        "familyCompositionPerson.fullName": "NM_MEMBRO",
+        "familyCompositionPerson.birthDate": "DT_NASC_MEMBRO",
+        "familyCompositionPerson.biologicalGender": "CD_SEXO_MEMBRO",
+        "familyCompositionPerson.kinship": "CD_PARENTESCO",
+        "familyCompositionPerson.educationConditionPerson.schoolShip": "CD_ESCOLARIDADE",
+        "familyCompositionPerson.workConditionPerson.workCondition": "CD_COND_TRAB",
+        "familyCompositionPerson.workConditionPerson.workValue": "VL_RENDA_IND"
+      }
+    },
+    "work_condition": {
+      "origin": "work_condition_data.json",
+      "fields": {
+        "familyIncome": "VL_RENDA_FAM",
+        "perCapitaIncome": "VL_RENDA_PCAP",
+        "bolsaFamiliaValue": "VL_BolsaFamilia",
+        "bpcValue": "VL_BPC",
+        "petiValue": "VL_PETI",
+        "totalFamilyIncome": "VL_RENDA_TOTAL"
+      }
+    },
+    "family_and_community": {
+      "origin": "family_and_community_data.json",
+      "fields": {
+        "yearsInState": "QT_ANOS_UF",
+        "yearsInDistrict": "QT_ANOS_MUNIC",
+        "yearsInNeighborhood": "QT_ANOS_BAIRRO",
+        "hasVictimOfThreatsOrDiscrimination": "IN_VIT_AMEACA_DISCR",
+        "hasNearbySupportNetwork": "IN_REDE_APOIO_PROX",
+        "hasNeighborSupportNetwork": "IN_REDE_APOIO_VIZ",
+        "relationshipEvaluationByTechnician": "CD_AVAL_REL_TEC"
+      }
+    },
+    "evently_benefits": {
+      "origin": "family_evently_benefits_data.json",
+      "fields": {
+        "date": "DT_BENEF_EVENT",
+        "typeOfBenefit": "CD_TIPO_BENEF_EVENT"
+      }
+    },
+    "family_history_institutional": {
+      "origin": "family_history_institutional_complet_data.json",
+      "fields": {
+        "childCustodyHistory": "DS_HIST_GUARDA",
+        "familyInstitutionalShelterHistory": "DS_HIST_ACOLHIMENTO",
+        "otherFamilySeparationSituations.hasMemberInPrision": "IN_MEMBRO_PRISAO",
+        "otherFamilySeparationSituations.hasMemberInadolescentInSocioEducationalInternment": "IN_ADOLESC_MSE"
+      }
+    },
+    "family_situation_violence": {
+      "origin": "family_situation_violence_data.json",
+      "fields": {
+        "childLabel.thisSituationOcurrent": "IN_VIOL_TRAB_INF",
+        "sexualExploitation.thisSituationOcurrent": "IN_VIOL_EXPL_SEX",
+        "physicalAbuse.thisSituationOcurrent": "IN_VIOL_FISICA",
+        "psychologicalAbuse.thisSituationOcurrent": "IN_VIOL_PSICO",
+        "homelessSituation.thisSituationOcurrent": "IN_SIT_RUA",
+        "humanTrafficking.thisSituationOcurrent": "IN_TRAFICO_PESSOAS",
+        "violenceWithElderOrPcd.thisSituationOcurrent": "IN_VIOL_IDOSO_PCD"
+      }
+    },
+    "first_entry_in_unity": {
+      "origin": "first_entry_in_unity_data.json",
+      "fields": {
+        "firstEntryInUnity": "IN_PRIM_ENTRADA",
+        "motivationForFirstEntry": "DS_MOT_ENTRADA",
+        "nameOfUnityToSendFirstEntry": "NM_UNID_ENCAM",
+        "familyBenefits": "DS_BENEF_FAMILIA"
+      }
+    },
+    "helphy_condition": {
+      "origin": "helphy_condition_data.json",
+      "fields": {
+        "hasFamilyMemberAbusesAlcohol": "IN_USO_ALCOOL",
+        "hasFamilyMemberAbusesDrugs": "IN_USO_DROGAS",
+        "hasFamilyMemberNeedsConstantCare": "IN_CUIDADO_CONST",
+        "hasFamilyMemberUsesControlledMedication": "IN_MED_CONTROL",
+        "hasSevereIllness": "IN_DOENCA_GRAVE",
+        "hasFamilyIndicatesFoodInsecurity": "IN_INSEG_ALIM"
+      }
+    }
+  }
+}

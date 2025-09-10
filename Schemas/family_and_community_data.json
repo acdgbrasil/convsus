@@ -1,0 +1,84 @@
+
+[
+  {
+    "yearsInState": 5,
+    "awaysLivingInState": false,
+    "yearsInDistrict": 5,
+    "awaysLivingInDistrict": false,
+    "yearsInNeighborhood": 2,
+    "awaysLivingInNeighborhood": false,
+    "hasVictimOfThreatsOrDiscrimination": true,
+    "hasNearbySupportNetwork": true,
+    "hasNeighborSupportNetwork": false,
+    "hasParticipatesInSupportGroups": false,
+    "hasParticipatesInSocialMovements": false,
+    "hasNoAccessToLeisureActivities": true,
+    "hasElderWithoutLeisureOrSocialInteraction": false,
+    "hasDependentsLeftAloneAtHome": false,
+    "relationshipEvaluationByTechnician": "CONFLICT_WITHOUT_VIOLENCE",
+    "parentChildRelationshipEvaluation": "WITHOUT_CONFLICT",
+    "siblingRelationshipEvaluation": "WITHOUT_CONFLICT",
+    "conflictWithOtherResidents": "WITHOUT_CONFLICT",
+    "observation": [
+      {
+        "observation": "A família se mudou para o estado há 5 anos em busca de melhores oportunidades de trabalho.",
+        "whoIsObservingId": "user1"
+      }
+    ],
+    "inInUse": true
+  },
+  {
+    "yearsInState": 20,
+    "awaysLivingInState": true,
+    "yearsInDistrict": 10,
+    "awaysLivingInDistrict": false,
+    "yearsInNeighborhood": 10,
+    "awaysLivingInNeighborhood": true,
+    "hasVictimOfThreatsOrDiscrimination": false,
+    "hasNearbySupportNetwork": true,
+    "hasNeighborSupportNetwork": true,
+    "hasParticipatesInSupportGroups": true,
+    "hasParticipatesInSocialMovements": false,
+    "hasNoAccessToLeisureActivities": false,
+    "hasElderWithoutLeisureOrSocialInteraction": false,
+    "hasDependentsLeftAloneAtHome": false,
+    "relationshipEvaluationByTechnician": "WITHOUT_CONFLICT",
+    "parentChildRelationshipEvaluation": "WITHOUT_CONFLICT",
+    "siblingRelationshipEvaluation": "WITHOUT_CONFLICT",
+    "conflictWithOtherResidents": "WITHOUT_CONFLICT",
+    "observation": [
+      {
+        "observation": "A família possui uma forte rede de apoio na vizinhança.",
+        "whoIsObservingId": "user2"
+      }
+    ],
+    "inInUse": true
+  },
+  {
+    "yearsInState": 1,
+    "awaysLivingInState": false,
+    "yearsInDistrict": 1,
+    "awaysLivingInDistrict": false,
+    "yearsInNeighborhood": 1,
+    "awaysLivingInNeighborhood": false,
+    "hasVictimOfThreatsOrDiscrimination": true,
+    "hasNearbySupportNetwork": false,
+    "hasNeighborSupportNetwork": false,
+    "hasParticipatesInSupportGroups": false,
+    "hasParticipatesInSocialMovements": false,
+    "hasNoAccessToLeisureActivities": true,
+    "hasElderWithoutLeisureOrSocialInteraction": true,
+    "hasDependentsLeftAloneAtHome": true,
+    "relationshipEvaluationByTechnician": "CONFLICT_WITH_VIOLENCE",
+    "parentChildRelationshipEvaluation": "CONFLICT_WITH_VIOLENCE",
+    "siblingRelationshipEvaluation": "CONFLICT_WITHOUT_VIOLENCE",
+    "conflictWithOtherResidents": "CONFLICT_WITH_VIOLENCE",
+    "observation": [
+      {
+        "observation": "Família recém-chegada, enfrentando dificuldades de adaptação e conflitos.",
+        "whoIsObservingId": "user3"
+      }
+    ],
+    "inInUse": true
+  }
+]

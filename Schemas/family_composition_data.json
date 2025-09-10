@@ -1,0 +1,118 @@
+
+[
+  {
+    "socialEspecification": "Indígena",
+    "espeficationEthnicity": "Guarani",
+    "familyCompositionPerson": [
+      {
+        "fullName": "João da Silva",
+        "birthDate": "1980-01-15",
+        "biologicalGender": "Masculino",
+        "personWithDisability": false,
+        "documents": {
+          "cn": true,
+          "rg": true,
+          "ctps": true,
+          "cpf": true,
+          "te": true
+        },
+        "kinship": 1,
+        "historySocialLaOrPSC": false,
+        "educationConditionPerson": {
+          "isInUse": true,
+          "literate": true,
+          "schoolShip": 8,
+          "isStudying": false
+        },
+        "workConditionPerson": {
+          "isInUse": true,
+          "hasWorkCard": true,
+          "workCondition": "Assalariado com registro",
+          "workQualification": "Pedreiro",
+          "workValue": 1800
+        }
+      },
+      {
+        "fullName": "Maria da Silva",
+        "birthDate": "1982-05-20",
+        "biologicalGender": "Feminino",
+        "personWithDisability": false,
+        "documents": {
+          "cn": true,
+          "rg": true,
+          "ctps": false,
+          "cpf": true,
+          "te": true
+        },
+        "kinship": 2,
+        "historySocialLaOrPSC": false,
+        "educationConditionPerson": {
+          "isInUse": true,
+          "literate": true,
+          "schoolShip": 6,
+          "isStudying": false
+        },
+        "workConditionPerson": {
+          "isInUse": true,
+          "hasWorkCard": false,
+          "workCondition": "Dona de casa",
+          "workQualification": "",
+          "workValue": 0
+        },
+        "pregnant": {
+          "pregnancyMonths": 4,
+          "hasPreNatal": true,
+          "isInUse": true
+        }
+      }
+    ],
+    "observation": [
+      {
+        "observation": "A família reside em uma comunidade indígena e mantém suas tradições.",
+        "whoIsObservingId": "user1"
+      }
+    ],
+    "isInUse": true
+  },
+  {
+    "socialEspecification": "Quilombola",
+    "espeficationEthnicity": "",
+    "familyCompositionPerson": [
+      {
+        "fullName": "José Santos",
+        "birthDate": "1960-11-30",
+        "biologicalGender": "Masculino",
+        "personWithDisability": true,
+        "documents": {
+          "cn": true,
+          "rg": true,
+          "ctps": true,
+          "cpf": true,
+          "te": true
+        },
+        "kinship": 1,
+        "historySocialLaOrPSC": true,
+        "educationConditionPerson": {
+          "isInUse": true,
+          "literate": false,
+          "schoolShip": 0,
+          "isStudying": false
+        },
+        "workConditionPerson": {
+          "isInUse": true,
+          "hasWorkCard": true,
+          "workCondition": "Aposentado",
+          "workQualification": "Agricultor",
+          "workValue": 1200
+        }
+      }
+    ],
+    "observation": [
+      {
+        "observation": "O Sr. José é lider na comunidade quilombola.",
+        "whoIsObservingId": "user2"
+      }
+    ],
+    "isInUse": true
+  }
+]

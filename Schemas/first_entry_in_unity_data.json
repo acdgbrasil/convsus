@@ -1,0 +1,45 @@
+
+[
+  {
+    "firstEntryInUnity": "Sim",
+    "motivationForFirstEntry": "Busca por programas de transferência de renda.",
+    "nameOfUnityToSendFirstEntry": "CRAS Central",
+    "ContactEmailOfUnityToSendFirstEntry": "crascentral@email.com",
+    "familyBenefits": "Bolsa Família",
+    "isInUse": true,
+    "observations": [
+      {
+        "observation": "Primeiro contato da família com a rede de assistência social.",
+        "whoIsObservingId": "user1"
+      }
+    ]
+  },
+  {
+    "firstEntryInUnity": "Não",
+    "motivationForFirstEntry": "Recadastramento do CadÚnico.",
+    "nameOfUnityToSendFirstEntry": "CRAS Norte",
+    "ContactEmailOfUnityToSendFirstEntry": "crasnorte@email.com",
+    "familyBenefits": "Bolsa Família, BPC",
+    "isInUse": true,
+    "observations": [
+      {
+        "observation": "Família já é acompanhada pela unidade.",
+        "whoIsObservingId": "user2"
+      }
+    ]
+  },
+  {
+    "firstEntryInUnity": "Sim",
+    "motivationForFirstEntry": "Violência doméstica.",
+    "nameOfUnityToSendFirstEntry": "CREAS",
+    "ContactEmailOfUnityToSendFirstEntry": "creas@email.com",
+    "familyBenefits": "",
+    "isInUse": true,
+    "observations": [
+      {
+        "observation": "Encaminhamento realizado pela delegacia da mulher.",
+        "whoIsObservingId": "user3"
+      }
+    ]
+  }
+]

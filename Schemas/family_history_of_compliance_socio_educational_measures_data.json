@@ -1,0 +1,33 @@
+
+[
+  {
+    "anotationsOfPersons": [
+      "Adolescente em cumprimento de medida socioeducativa de liberdade assistida.",
+      "Anotações sobre o acompanhamento do caso, incluindo frequência escolar e participação em atividades."
+    ],
+    "isInUse": true,
+    "observations": [
+      {
+        "observation": "O adolescente apresenta boa evolução no cumprimento da medida.",
+        "whoIsObservingId": "user1"
+      }
+    ]
+  },
+  {
+    "anotationsOfPersons": [
+      "Jovem em acompanhamento pós-medida, com foco na inserção no mercado de trabalho."
+    ],
+    "isInUse": true,
+    "observations": [
+      {
+        "observation": "Dificuldades em encontrar oportunidades de emprego formal.",
+        "whoIsObservingId": "user2"
+      }
+    ]
+  },
+  {
+    "anotationsOfPersons": [],
+    "isInUse": false,
+    "observations": []
+  }
+]

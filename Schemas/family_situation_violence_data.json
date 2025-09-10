@@ -1,0 +1,119 @@
+
+[
+  {
+    "childLabel": {
+      "thisSituationOcurrent": true,
+      "thisSituationsOcurrentNow": false
+    },
+    "sexualExploitation": {
+      "thisSituationOcurrent": false,
+      "thisSituationsOcurrentNow": false
+    },
+    "sexualAbuse": {
+      "thisSituationOcurrent": false,
+      "thisSituationsOcurrentNow": false
+    },
+    "physicalAbuse": {
+      "thisSituationOcurrent": true,
+      "thisSituationsOcurrentNow": true
+    },
+    "psychologicalAbuse": {
+      "thisSituationOcurrent": true,
+      "thisSituationsOcurrentNow": true
+    },
+    "elderNeglect": {
+      "thisSituationOcurrent": false,
+      "thisSituationsOcurrentNow": false
+    },
+    "childNeglect": {
+      "thisSituationOcurrent": true,
+      "thisSituationsOcurrentNow": true
+    },
+    "pcdNeglect": {
+      "thisSituationOcurrent": false,
+      "thisSituationsOcurrentNow": false
+    },
+    "homelessSituation": {
+      "thisSituationOcurrent": false,
+      "thisSituationsOcurrentNow": false
+    },
+    "humanTrafficking": {
+      "thisSituationOcurrent": false,
+      "thisSituationsOcurrentNow": false
+    },
+    "violenceWithElderOrPcd": {
+      "thisSituationOcurrent": false,
+      "thisSituationsOcurrentNow": false
+    },
+    "other": {
+      "thisSituationOcurrent": false,
+      "thisSituationsOcurrentNow": false,
+      "nameOfSituation": ""
+    },
+    "isInUse": true,
+    "observations": [
+      {
+        "observation": "A família apresenta um histórico de violência doméstica, com episódios recorrentes de abuso físico e psicológico. Medidas protetivas foram solicitadas.",
+        "whoIsObservingId": "user1"
+      }
+    ]
+  },
+  {
+    "childLabel": {
+      "thisSituationOcurrent": false,
+      "thisSituationsOcurrentNow": false
+    },
+    "sexualExploitation": {
+      "thisSituationOcurrent": false,
+      "thisSituationsOcurrentNow": false
+    },
+    "sexualAbuse": {
+      "thisSituationOcurrent": false,
+      "thisSituationsOcurrentNow": false
+    },
+    "physicalAbuse": {
+      "thisSituationOcurrent": false,
+      "thisSituationsOcurrentNow": false
+    },
+    "psychologicalAbuse": {
+      "thisSituationOcurrent": false,
+      "thisSituationsOcurrentNow": false
+    },
+    "elderNeglect": {
+      "thisSituationOcurrent": true,
+      "thisSituationsOcurrentNow": true
+    },
+    "childNeglect": {
+      "thisSituationOcurrent": false,
+      "thisSituationsOcurrentNow": false
+    },
+    "pcdNeglect": {
+      "thisSituationOcurrent": false,
+      "thisSituationsOcurrentNow": false
+    },
+    "homelessSituation": {
+      "thisSituationOcurrent": true,
+      "thisSituationsOcurrentNow": false
+    },
+    "humanTrafficking": {
+      "thisSituationOcurrent": false,
+      "thisSituationsOcurrentNow": false
+    },
+    "violenceWithElderOrPcd": {
+      "thisSituationOcurrent": false,
+      "thisSituationsOcurrentNow": false
+    },
+    "other": {
+      "thisSituationOcurrent": false,
+      "thisSituationsOcurrentNow": false,
+      "nameOfSituation": ""
+    },
+    "isInUse": true,
+    "observations": [
+      {
+        "observation": "Idoso em situação de negligência familiar, sem cuidados básicos de higiene e alimentação. O caso foi encaminhado para o CREAS.",
+        "whoIsObservingId": "user2"
+      }
+    ]
+  }
+]

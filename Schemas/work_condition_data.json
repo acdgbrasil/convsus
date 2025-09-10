@@ -1,0 +1,48 @@
+
+[
+  {
+    "familyIncome": 1500,
+    "perCapitaIncome": 375,
+    "hasSocialIncome": true,
+    "bolsaFamiliaValue": 600,
+    "bpcValue": 0,
+    "petiValue": 0,
+    "othersValue": 100,
+    "bcpBenefitPerson": [],
+    "hasRetiredPerson": [],
+    "totalFamilyIncome": 2200,
+    "totalPerCapitaIncome": 550,
+    "isInUse": true,
+    "observations": ["A renda familiar é composta pelo salário do trabalho formal e benefícios sociais."]
+  },
+  {
+    "familyIncome": 800,
+    "perCapitaIncome": 200,
+    "hasSocialIncome": true,
+    "bolsaFamiliaValue": 800,
+    "bpcValue": 1200,
+    "petiValue": 0,
+    "othersValue": 0,
+    "bcpBenefitPerson": ["Maria Oliveira"],
+    "hasRetiredPerson": ["José Santos"],
+    "totalFamilyIncome": 2800,
+    "totalPerCapitaIncome": 700,
+    "isInUse": true,
+    "observations": ["A família depende significativamente de benefícios sociais e da aposentadoria."]
+  },
+  {
+    "familyIncome": 0,
+    "perCapitaIncome": 0,
+    "hasSocialIncome": false,
+    "bolsaFamiliaValue": 0,
+    "bpcValue": 0,
+    "petiValue": 0,
+    "othersValue": 0,
+    "bcpBenefitPerson": [],
+    "hasRetiredPerson": [],
+    "totalFamilyIncome": 0,
+    "totalPerCapitaIncome": 0,
+    "isInUse": true,
+    "observations": ["A família não possui renda no momento e vive de ajuda de terceiros."]
+  }
+]

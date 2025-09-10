@@ -1,0 +1,66 @@
+
+[
+  {
+    "hasFamilyMemberAbusesAlcohol": true,
+    "familyMemberAbusesAlcoholList": [
+      {
+        "fullName": "José Santos",
+        "complement": "Pai"
+      }
+    ],
+    "hasFamilyMemberAbusesDrugs": false,
+    "familyMemberAbusesDrugsList": [],
+    "hasFamilyMemberNeedsConstantCare": true,
+    "familyMemberNeedsConstantCareList": [
+      {
+        "fullName": "Ana Costa",
+        "complement": "Filha, pessoa com deficiência"
+      }
+    ],
+    "hasFamilyMemberUsesControlledMedication": false,
+    "familyMemberUsesControlledMedicationList": [],
+    "hasSevereIllness": false,
+    "severeIllnessList": [],
+    "hasFamilyIndicatesFoodInsecurity": true,
+    "observations": [
+      {
+        "observation": "A família enfrenta múltiplos desafios de saúde, incluindo alcoolismo e a necessidade de cuidados constantes para uma pessoa com deficiência. A insegurança alimentar é uma preocupação presente.",
+        "whoIsObservingId": "user1"
+      }
+    ]
+  },
+  {
+    "hasFamilyMemberAbusesAlcohol": false,
+    "familyMemberAbusesAlcoholList": [],
+    "hasFamilyMemberAbusesDrugs": true,
+    "familyMemberAbusesDrugsList": [
+      {
+        "fullName": "Carlos Pereira",
+        "complement": "Filho"
+      }
+    ],
+    "hasFamilyMemberNeedsConstantCare": false,
+    "familyMemberNeedsConstantCareList": [],
+    "hasFamilyMemberUsesControlledMedication": true,
+    "familyMemberUsesControlledMedicationList": [
+      {
+        "fullName": "Fernanda Lima",
+        "complement": "Mãe, tratamento para depressão"
+      }
+    ],
+    "hasSevereIllness": true,
+    "severeIllnessList": [
+      {
+        "fullName": "Fernanda Lima",
+        "complement": "Câncer de mama"
+      }
+    ],
+    "hasFamilyIndicatesFoodInsecurity": false,
+    "observations": [
+      {
+        "observation": "A saúde da família é impactada pelo uso de drogas do filho e pela doença grave da mãe. O acompanhamento psicossocial é fundamental.",
+        "whoIsObservingId": "user2"
+      }
+    ]
+  }
+]

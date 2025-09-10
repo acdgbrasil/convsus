@@ -1,0 +1,38 @@
+
+[
+  {
+    "date": "2023-01-15",
+    "numberOfBirthDateOfChildren": "12345678901234567",
+    "typeOfBenefit": 1,
+    "inInUse": true,
+    "observation": [
+      {
+        "observation": "Benefício de natalidade solicitado para o recém-nascido.",
+        "whoIsObservingId": "user1"
+      }
+    ]
+  },
+  {
+    "date": "2023-03-20",
+    "numberOfCpfDeadPerson": "111.222.333-44",
+    "typeOfBenefit": 2,
+    "inInUse": true,
+    "observation": [
+      {
+        "observation": "Auxílio funeral solicitado para o cônjuge falecido.",
+        "whoIsObservingId": "user2"
+      }
+    ]
+  },
+  {
+    "date": "2023-05-10",
+    "typeOfBenefit": 3,
+    "inInUse": true,
+    "observation": [
+      {
+        "observation": "Solicitação de cesta básica devido a situação de vulnerabilidade.",
+        "whoIsObservingId": "user3"
+      }
+    ]
+  }
+]

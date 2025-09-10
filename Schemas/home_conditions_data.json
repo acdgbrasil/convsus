@@ -1,0 +1,69 @@
+
+[
+  {
+    "typeResidence": "Própria",
+    "materialOfExternalWalls": "Alvenaria",
+    "hasAcessEnergy": "Sim, com medidor próprio",
+    "waterSupply": "Rede pública",
+    "sewageDisposal": "Rede pública",
+    "garbageCollection": "Coleta direta",
+    "hasWasteCollection": true,
+    "homeConditionIsInRiskArea": false,
+    "difficultyToAccessHome": false,
+    "hasHomeInsurance": false,
+    "numberOfRooms": 5,
+    "numberOfBedrooms": 2,
+    "numberOfPeapleInBedrooms": 2.5,
+    "observations": [
+      {
+        "observation": "A residência possui boas condições de moradia, com acesso a todos os serviços básicos.",
+        "whoIsObservingId": "user1"
+      }
+    ],
+    "isInUse": true
+  },
+  {
+    "typeResidence": "Alugada",
+    "materialOfExternalWalls": "Madeira",
+    "hasAcessEnergy": "Sim, com medidor comunitário",
+    "waterSupply": "Poço/nascente",
+    "sewageDisposal": "Fossa séptica",
+    "garbageCollection": "Queima/enterra",
+    "hasWasteCollection": false,
+    "homeConditionIsInRiskArea": true,
+    "difficultyToAccessHome": true,
+    "hasHomeInsurance": false,
+    "numberOfRooms": 3,
+    "numberOfBedrooms": 1,
+    "numberOfPeapleInBedrooms": 4,
+    "observations": [
+      {
+        "observation": "A moradia é precária, localizada em área de risco e com acesso limitado a serviços essenciais. A família vive em condição de superlotação.",
+        "whoIsObservingId": "user2"
+      }
+    ],
+    "isInUse": true
+  },
+  {
+    "typeResidence": "Cedida",
+    "materialOfExternalWalls": "Material aproveitado",
+    "hasAcessEnergy": "Não possui energia elétrica",
+    "waterSupply": "Carro-pipa",
+    "sewageDisposal": "Céu aberto",
+    "garbageCollection": "Jogado em terreno baldio",
+    "hasWasteCollection": false,
+    "homeConditionIsInRiskArea": true,
+    "difficultyToAccessHome": false,
+    "hasHomeInsurance": false,
+    "numberOfRooms": 2,
+    "numberOfBedrooms": 1,
+    "numberOfPeapleInBedrooms": 3,
+    "observations": [
+      {
+        "observation": "Condições de moradia extremamente precárias, com alto risco à saúde e segurança da família.",
+        "whoIsObservingId": "user3"
+      }
+    ],
+    "isInUse": true
+  }
+]
