@@ -102,17 +102,17 @@ flowchart LR
     T2[TabNet]:::tool
   end
 
-  subgraph IA (RAG)
+  subgraph IA e RAG
     I1[Normalização para índice]:::proc
     I2[Indexação<br/>vetorial/keyword]:::store
-    I3[API Q&A]:::api
-    I4[Provedor LLM<br/>Magalu GPT / Local]:::llm
+    I3[API Perguntas e Respostas]:::api
+    I4[Provedor LLM<br/>Magalu GPT ou Local]:::llm
   end
 
   subgraph Operação e Qualidade
-    Q1[pre-commit / linters]:::qa
+    Q1[pre-commit e linters]:::qa
     Q2[Kody Code Review]:::qa
-    Q3[govulncheck / tests -race]:::qa
+    Q3[govulncheck e testes -race]:::qa
   end
 
   S1 --> C1
@@ -128,7 +128,7 @@ flowchart LR
 
   CLI --> C1
   CLI --> C2
-  W1[[Wrappers: Python, Node, Rust, Java]]:::api --> |chama CLI/gRPC| C1
+  W1[[Wrappers: Python, Node, Rust, Java]]:::api --> |chama CLI ou gRPC| C1
   W1 --> |export| C2
   I3 --> |SDKs| W1
 
