@@ -87,13 +87,13 @@ Entramos em contato com a Kodus e eles aceitaram apoiar o projeto com Code Revie
 ```mermaid
 flowchart LR
   subgraph Sources
-    S1[JSON padronizado\nSchemas/]:::file
-    S2[Mapeamentos oficiais\nDATASUS/IBGE]:::file
+    S1[JSON padronizado<br/>Schemas/]:::file
+    S2[Mapeamentos oficiais<br/>DATASUS/IBGE]:::file
   end
 
   subgraph Core Go
-    C1[Transform Engine (puro)\nmapeia/achata/valida]:::go
-    C2[Exporters\n.DBF .DEF .CNV]:::go
+    C1[Engine de Transformação<br/>mapeia/achata/valida]:::go
+    C2[Exportadores<br/>DBF, DEF, CNV]:::go
     CLI[CLI convsus]:::cli
   end
 
@@ -103,13 +103,13 @@ flowchart LR
   end
 
   subgraph IA (RAG)
-    I1[Normalização p/ índice]:::proc
-    I2[Indexação\nvetorial/keyword]:::store
-    I3[Q&A API / Wrappers]:::api
-    I4[LLM Provider\nMagalu GPT / Local]:::llm
+    I1[Normalização para índice]:::proc
+    I2[Indexação<br/>vetorial/keyword]:::store
+    I3[API Q&A]:::api
+    I4[Provedor LLM<br/>Magalu GPT / Local]:::llm
   end
 
-  subgraph Operação & Qualidade
+  subgraph Operação e Qualidade
     Q1[pre-commit / linters]:::qa
     Q2[Kody Code Review]:::qa
     Q3[govulncheck / tests -race]:::qa
@@ -128,7 +128,7 @@ flowchart LR
 
   CLI --> C1
   CLI --> C2
-  W1[[Wrappers: Python/Node/Rust/Java]]:::api --> |chama CLI/gRPC| C1
+  W1[[Wrappers: Python, Node, Rust, Java]]:::api --> |chama CLI/gRPC| C1
   W1 --> |export| C2
   I3 --> |SDKs| W1
 
