@@ -33,7 +33,7 @@ E o arquivo "PESSOA_REF.CNV" deve conter os dicionários para traduzir códigos 
 
 **Cenário 2: Mapeamento e achatamento de dados aninhados**
 ```gherkin
-Dado que um arquivo JSON de entrada contém dados aninhados, como: `{"rg": {"number": "1234567", "uf": "SP"}}`
+Dado que um arquivo JSON de entrada contém dados aninhados, como: `{\"rg\": {\"number\": \"1234567\", \"uf\": \"SP\"}}`
 E a configuração de mapeamento define que `rg.number` corresponde à coluna `NU_RG` e `rg.uf` à coluna `SG_UF_RG`
 Quando o processo de exportação é executado
 Então o arquivo `.DBF` gerado deve conter as colunas `NU_RG` e `SG_UF_RG`

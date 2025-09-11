@@ -15,35 +15,35 @@
 
 **Cenário 1: Mapeamento de campos diretos**
 ```gherkin
-Dado um objeto de origem: `{"fullName": "João da Silva", "birthDate": "1990-05-15"}`
-E uma regra de mapeamento: `{"nome_completo": "fullName", "data_nascimento": "birthDate"}`
+Dado um objeto de origem: `{\"fullName\": \"João da Silva\", \"birthDate\": \"1990-05-15\"}`
+E uma regra de mapeamento: `{\"nome_completo\": \"fullName\", \"data_nascimento\": \"birthDate\"}`
 Quando eu processo o objeto com a regra de mapeamento
-Então o resultado deve ser: `{"nome_completo": "João da Silva", "data_nascimento": "1990-05-15"}`
+Então o resultado deve ser: `{\"nome_completo\": \"João da Silva\", \"data_nascimento\": \"1990-05-15\"}`
 ```
 
 **Cenário 2: Mapeamento de campos aninhados (Flattening)**
 ```gherkin
-Dado um objeto de origem: `{"identificacao": {"pessoal": {"nome": "Maria Oliveira"}}, "local": "Urbano"}`
-E uma regra de mapeamento: `{"nome": "identificacao.pessoal.nome", "zona": "local"}`
+Dado um objeto de origem: `{\"identificacao\": {\"pessoal\": {\"nome\": \"Maria Oliveira\"}}, \"local\": \"Urbano\"}`
+E uma regra de mapeamento: `{\"nome\": \"identificacao.pessoal.nome\", \"zona\": \"local\"}`
 Quando eu processo o objeto com a regra de mapeamento
-Então o resultado deve ser: `{"nome": "Maria Oliveira", "zona": "Urbano"}`
+Então o resultado deve ser: `{\"nome\": \"Maria Oliveira\", \"zona\": \"Urbano\"}`
 ```
 
 **Cenário 3: Mapeamento com valor padrão para campos ausentes**
 ```gherkin
-Dado um objeto de origem: `{"nome": "José"}`
-E uma regra de mapeamento que espera um sobrenome: `{"primeiro_nome": "nome", "ultimo_nome": "sobrenome"}`
+Dado um objeto de origem: `{\"nome\": \"José\"}`
+E uma regra de mapeamento que espera um sobrenome: `{\"primeiro_nome\": \"nome\", \"ultimo_nome\": \"sobrenome\"}`
 E a regra define que um campo ausente deve ter o valor `null`
 Quando eu processo o objeto com a regra de mapeamento
-Então o resultado deve ser: `{"primeiro_nome": "José", "ultimo_nome": null}`
+Então o resultado deve ser: `{\"primeiro_nome\": \"José\", \"ultimo_nome\": null}`
 ```
 
 **Cenário 4: Mapeamento com transformação de valor**
 ```gherkin
-Dado um objeto de origem: `{"genero": "F"}`
-E uma regra de mapeamento que inclui uma transformação: `{"sexo": {"campo": "genero", "transformacao": {"F": "Feminino", "M": "Masculino"}}}`
+Dado um objeto de origem: `{\"genero\": \"F\"}`
+E uma regra de mapeamento que inclui uma transformação: `{\"sexo\": {\"campo\": \"genero\", \"transformacao\": {\"F\": \"Feminino\", \"M\": \"Masculino\"}}}`
 Quando eu processo o objeto com a regra de mapeamento
-Então o resultado deve ser: `{"sexo": "Feminino"}`
+Então o resultado deve ser: `{\"sexo\": \"Feminino\"}`
 ```
 
 ---
@@ -78,3 +78,4 @@ Então o resultado deve ser: `{"sexo": "Feminino"}`
         *   O script deve usar `asserts` para verificar se o dicionário resultante contém as chaves e os valores esperados.
         *   O script deve imprimir (logar) o dicionário de saída em formato JSON legível.
     6.  **Verificação Manual (QA):** O QA deve revisar o output logado para confirmar que a transformação ocorreu conforme o esperado nas regras de mapeamento.
+

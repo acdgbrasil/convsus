@@ -1,0 +1,13 @@
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
+
+Os materiais de documentação, textos, imagens e esquemas deste repositório estão licenciados sob CC BY-NC-SA 4.0.
+
+Permite (resumo não substitui o texto legal):
+- Compartilhar e adaptar para fins NÃO comerciais, com atribuição e mantendo a mesma licença (ShareAlike).
+
+Texto legal completo
+- Versão canônica (inglês): https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+- Resumo legível: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+Atribuição sugerida
+- “CONVSUS — ACDG (https://acdgbrasil.com.br/)”.

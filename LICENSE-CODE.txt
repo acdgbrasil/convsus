@@ -1,0 +1,18 @@
+PolyForm Noncommercial License 1.0.0
+
+Este software (código) está licenciado sob a PolyForm Noncommercial License 1.0.0.
+
+Permissões (resumo não substitui o texto legal):
+- Permite usar, copiar, modificar e distribuir para fins NÃO comerciais.
+- Exige inclusão desta licença nas redistribuições.
+- Uso comercial (inclusive SaaS) NÃO é permitido por esta licença.
+
+Uso comercial
+- Para licença comercial ou exceções (por exemplo, SaaS em contexto específico), entre em contato com a ACDG.
+- Site de contato: https://acdgbrasil.com.br/
+
+Texto legal completo
+- Versão canônica (inglês): https://polyformproject.org/licenses/noncommercial/1.0.0/
+
+Observações
+- Esta licença é "source-available" e não é aprovada pela OSI como "open source" (no sentido estrito da definição OSI), pois restringe uso comercial.

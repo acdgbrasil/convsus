@@ -1,0 +1,50 @@
+version: '1.2'
+
+summary:
+  generatePRSummary: true
+  behaviourForExistingDescription: concatenate
+  customInstructions: |
+    Projeto CONVSUS — utilidade pública, por e para o Brasil.
+    Core em Go (transformação pura, sem I/O) para gerar arquivos DATASUS (.DBF, .DEF, .CNV) compatíveis com TabWin/TabNet.
+    Priorizamos PRs pequenos, com descrição clara, testes table-driven e validação prática.
+    Padrões Go: gofmt/goimports, sem panic; usar context; -race nos testes; golangci-lint limpo quando aplicável.
+    JSON/Markdown padronizados (2 espaços, LF, newline no EOF). Evitar diffs ruidosos.
+    Wrappers chamam a CLI inicialmente; gRPC/SDKs virão depois.
+    Licenciamento não-comercial: respeite PolyForm Noncommercial 1.0.0 para código e CC BY-NC-SA para docs.
+    Valor: fortalecer tecnologia brasileira e interoperar com o legado público sem atrito.
+
+ignorePaths:
+  - .git/**
+  - node_modules/**
+  - '*.pdf'
+  - '*.PDF'
+  - '*.dbf'
+  - '*.DBF'
+  - 'Sistema de dados Brasil/**'
+  - 'padronização conecta raros/**'
+  - 'padronização do datasus/**'
+
+baseBranches: ['main', 'develop']
+
+reviewOptions:
+  security: true
+  code_style: true
+  kody_rules: true
+  refactoring: true
+  error_handling: true
+  maintainability: true
+  documentation_and_comments: true
+  performance_and_optimization: true
+
+suggestionControl:
+  groupingMode: full
+  limitationType: pr
+  maxSuggestions: 9
+  severityLevelFilter: medium
+
+ignoredTitleKeywords: []
+
+automatedReviewActive: true
+pullRequestApprovalActive: false
+isRequestChangesActive: false
+
